@@ -6,6 +6,13 @@ import xlrd
 import xlwt
 import xlutils
 
+
+import xlrd
+import xlutils
+from xlutils import copy
+book=xlrd.open_workbook('stu.xls')
+
+
 ch = xlwt.Workbook()
 sheet = ch.add_sheet("初中词汇")
 a = 0
